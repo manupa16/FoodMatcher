@@ -2,5 +2,5 @@ package recetario
 
 type Alimento struct {
 	nombre    string
-	alergenos []Alergeno
+	alergenos map[Alergeno]struct{}
 }
