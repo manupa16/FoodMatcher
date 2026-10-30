@@ -3,7 +3,7 @@ package recetario
 type ProcesoEleccion struct {
 	alergias      []string
 	intolerancias []string
-	dieta         string
+	dieta         Dieta
 	inventario    []Alimento
 	limiteMinutos int
 }
