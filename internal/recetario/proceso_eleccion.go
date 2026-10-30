@@ -1,7 +1,7 @@
 package recetario
 
 type ProcesoEleccion struct {
-	alergias      []string
+	alergias      []Alergeno
 	intolerancias []string
 	dieta         Dieta
 	inventario    []Alimento
