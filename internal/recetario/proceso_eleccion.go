@@ -6,4 +6,5 @@ type ProcesoEleccion struct {
 	dieta         Dieta
 	inventario    []Alimento
 	limiteMinutos int
+	recetas       []Receta
 }
